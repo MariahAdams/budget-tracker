@@ -1,0 +1,15 @@
+:local(.expenses) {
+
+  form {
+    display: flex;
+    flex-direction: row;
+  }
+
+  label {
+    margin: 6px;
+  }
+
+  .form-button {
+    margin: 6px;
+  }
+}
