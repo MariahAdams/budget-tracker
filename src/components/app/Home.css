@@ -2,7 +2,6 @@
 
   text-align: center;
 
-  
   a {
     color: #2c3e50;
     text-decoration: none;
@@ -12,5 +11,9 @@
   a:hover {
     border-bottom: 2px solid #C4E3CB;
     color: #C4E3CB;
+  }
+
+  a:active {
+    color: darkgreen;
   }
 }

@@ -5,6 +5,7 @@ import ExpensesForm from './ExpensesForm';
 import Expense from './Expense';
 import { getExpensesByCategoryId } from './reducers/expenseReducers';
 import { add } from './reducers/expenseActions';
+import styles from './Expenses.css';
 
 class Expenses extends Component {
 
@@ -25,7 +26,7 @@ class Expenses extends Component {
 
     return (
       <ul>
-        <section className="expenses-form">
+        <section className={styles.expenses}>
           <h3>Add an Expense:</h3>
           <ExpensesForm 
             onComplete={this.handleAddExpense}

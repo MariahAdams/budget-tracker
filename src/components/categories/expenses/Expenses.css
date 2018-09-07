@@ -1,7 +1,5 @@
 :local(.expenses) {
 
-  border: 2px solid red;
-
   form {
     display: flex;
     flex-direction: row;

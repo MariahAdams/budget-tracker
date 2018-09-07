@@ -41,8 +41,8 @@ class ExpensesForm extends Component {
 
     return (
       <form onSubmit={this.handleSubmit}>
-        <label>Expense name:<input type="text" name="name" value={name} placeholder="Name of expense..." onChange={this.handleChange}></input></label>
-        <label>Price:<input type="number" name="price" value={price} placeholder="price" onChange={this.handleChange}></input></label>
+        <label>Expense name:<input type="text" name="name" value={name} required placeholder="Name of expense..." onChange={this.handleChange}></input></label>
+        <label>Price:<input type="number" name="price" value={price} required placeholder="price" onChange={this.handleChange}></input></label>
         <button type="submit" className="form-button">{ id ? 'Update' : 'Add' }</button>
         {id && <button type="button" className="form-button" onClick={onCancel}>Cancel</button>}
       </form>
