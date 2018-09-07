@@ -4,7 +4,7 @@ const CleanPlugin = require('clean-webpack-plugin');
 const HtmlPlugin = require('html-webpack-plugin');
 const Dotenv = require('dotenv-webpack');
 
-const buildDir = 'docs';
+const buildDir = 'build';
 const path = resolve(__dirname, buildDir);
 
 module.exports = {
@@ -17,8 +17,11 @@ module.exports = {
   mode: 'development',
   devtool: 'inline-source-map',
   devServer: {
-    contentBase: `./${buildDir}`,
-    historyApiFallback: true
+    historyApiFallback: true,
+    publicPath: '/',
+    proxy: {
+      '/api': 'http://localhost:3000'
+    }
   },
   node: {
     fs: 'empty'

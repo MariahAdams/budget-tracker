@@ -1,22 +1,7 @@
-# Budget Tracker
+# App Layout Redesign
 
 ## Project Description
-A simple budget tracking app to manage your budget by categories and track expenses. Built with React and Redux. Tested with Jest and Enzyme.
-
-## Developer
-Requires Node v10 or later.
-
-### How to get started
-* Fork repository, clone locally, navigate to repository directory,
-* Download all the files with `npm i`,
-* To test, run `npm test`. 
-
-### How to use API
-* Connect to server with `npm start`.
-* On the `Dashboard` page, create your budget by filling out the form with a new category and set budget. Click `Add`.
-* To go back and edit your categories, click on the `✏️`. 
-* Click `🗑️` to remove a category. 
-* For each new category, you can add, edit and delete expenses as above. 
+Stay tuned!
 
 ## Contributor
 This project was created by [Mariah Adams](https://github.com/MariahAdams) during the Summer 2018 Full-Stack Javascript Career Track program at [Alchemy Code Lab](https://www.alchemycodelab.com).
@@ -25,4 +10,4 @@ This project was created by [Mariah Adams](https://github.com/MariahAdams) durin
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
 ## Acknowledgment 
-Forked from [alchemy-fullstack-js-summer-2018/budget-tracker](https://github.com/alchemy-fullstack-js-summer-2018/budget-tracker)
+Forked from [alchemy-fullstack-js-summer-2018/app-layout-redesign](https://github.com/alchemy-fullstack-js-summer-2018/app-layout-redesign)

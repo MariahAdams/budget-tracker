@@ -1,5 +1,5 @@
 :local(.app) {
-  
+
   h1 {
     color: #2c3e50;
   }
@@ -9,7 +9,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    background-color: #8AAE92;
+    background-color: steelblue;
   }
 
   nav-ul {
@@ -18,10 +18,6 @@
 
   main {
     margin: 0% 4% 0% 4%;
-  }
-
-  button {
-    cursor: pointer;
   }
 
 }
